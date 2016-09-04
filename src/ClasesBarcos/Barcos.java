@@ -9,7 +9,7 @@ package ClasesBarcos;
  *
  * @author mohat
  */
-public class Barcos {
+public abstract class Barcos {
     
     private String matricula;
     private String nombre;
