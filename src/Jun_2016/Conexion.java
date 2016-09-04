@@ -24,14 +24,14 @@ public class Conexion
         String controlador = "com.mysql.jdbc.Driver";
         Class.forName(controlador).newInstance();
         
-        Conectar();
+        ConectarBD();
     }
     
     //----------------------------------------------------------//
     /*
     ESTE CONSTRUCTOR ES PARA PROBAR, DEBES CREAR EL TUYO PROPIO AL QUE LE DEBES PASAR
     EL NOMBRE DE LA BD, EL USUARIO DE MYSQL Y SU CONTRASEÑA.
-    */
+    *
     private void Conectar() throws SQLException
     {
         String URL_BD = "jdbc:mysql://localhost:3306/pescavona";
@@ -49,7 +49,7 @@ public class Conexion
         }
 
     }
-    
+    */
     
     /**
      * 
